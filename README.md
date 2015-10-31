@@ -1,2 +1,2 @@
 # Calculator
-A simple calculator created for a basic Front-End development project at FreeCodeCamp.com
+A simple calculator created as a basic Front-End development project at FreeCodeCamp.com
