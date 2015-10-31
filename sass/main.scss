@@ -1,0 +1,75 @@
+body{
+	background-image:url("../images/calcBackgground.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	h2{
+		color:#F3EEE7;
+	}
+	.row{
+		border:solid 1px black;
+		border-top-left-radius: 80%30px;
+		border-top-right-radius: 80%30px;
+		border-bottom-left-radius: 80%30px;
+		border-bottom-right-radius: 80%30px;
+		box-shadow:3px 3px black;
+		min-height:520px;
+		font-size:16px;
+		background-color:lightgray;
+		margin:auto;
+		max-width:430px;
+		min-width:430px;
+		padding-top:20px;
+		#display{
+			height: 70px;
+			min-width: 390px;
+			border:solid 1px black;
+			border-radius:15px;
+			padding:10px;
+			line-height:50px;
+			font-size: 26px;
+			margin:30px 20px 30px 20px;
+			background-color:#F3EEE7;
+			text-align: left;
+		}
+		.leftBtnPanel{
+			min-width:275px;
+			margin-left:30px;
+			padding-right:0px;
+			.button{
+				width:50px;
+				height:50px;
+				border:solid 1px black;
+				border-radius:3px;
+				float:left;
+				margin:15px;
+				margin-right:20px;
+				&.red{
+					background-color:#B63748;
+				}
+				&.result:hover{
+					background-color:green;
+				}
+			}
+		}
+		.rightBtnPanel{
+			min-width: 97.5px;
+			min-height: 450px;
+
+			.button{
+				width:50px;
+				height:50px;
+				border:solid 1px black;
+				border-radius:3px;
+				float:right;
+				margin:15px;
+				&.bigSumBtn{
+					height:130px;
+				}
+			}
+		}
+
+		.button:hover{
+			cursor:pointer;
+		}
+	}
+}

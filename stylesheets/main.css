@@ -1,0 +1,85 @@
+/* line 1, ../sass/main.scss */
+body {
+  background-image: url("../images/calcBackgground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* line 5, ../sass/main.scss */
+body h2 {
+  color: #F3EEE7;
+}
+/* line 8, ../sass/main.scss */
+body .row {
+  border: solid 1px black;
+  border-top-left-radius: 80% 30px;
+  border-top-right-radius: 80% 30px;
+  border-bottom-left-radius: 80% 30px;
+  border-bottom-right-radius: 80% 30px;
+  box-shadow: 3px 3px black;
+  min-height: 520px;
+  font-size: 16px;
+  background-color: lightgray;
+  margin: auto;
+  max-width: 430px;
+  min-width: 430px;
+  padding-top: 20px;
+}
+/* line 22, ../sass/main.scss */
+body .row #display {
+  height: 70px;
+  min-width: 390px;
+  border: solid 1px black;
+  border-radius: 15px;
+  padding: 10px;
+  line-height: 50px;
+  font-size: 26px;
+  margin: 30px 20px 30px 20px;
+  background-color: #F3EEE7;
+  text-align: left;
+}
+/* line 34, ../sass/main.scss */
+body .row .leftBtnPanel {
+  min-width: 275px;
+  margin-left: 30px;
+  padding-right: 0px;
+}
+/* line 38, ../sass/main.scss */
+body .row .leftBtnPanel .button {
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  border-radius: 3px;
+  float: left;
+  margin: 15px;
+  margin-right: 20px;
+}
+/* line 46, ../sass/main.scss */
+body .row .leftBtnPanel .button.red {
+  background-color: #B63748;
+}
+/* line 49, ../sass/main.scss */
+body .row .leftBtnPanel .button.result:hover {
+  background-color: green;
+}
+/* line 54, ../sass/main.scss */
+body .row .rightBtnPanel {
+  min-width: 97.5px;
+  min-height: 450px;
+}
+/* line 58, ../sass/main.scss */
+body .row .rightBtnPanel .button {
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  border-radius: 3px;
+  float: right;
+  margin: 15px;
+}
+/* line 65, ../sass/main.scss */
+body .row .rightBtnPanel .button.bigSumBtn {
+  height: 130px;
+}
+/* line 71, ../sass/main.scss */
+body .row .button:hover {
+  cursor: pointer;
+}
